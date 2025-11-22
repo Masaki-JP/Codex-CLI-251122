@@ -1,0 +1,2 @@
+
+public typealias DefaultPokemonUsecase = PokemonUsecase<PokemonRepository<PokemonFetcher, PokemonCacheDataSource>, FavoritePokemonIDLocalDataSource>
